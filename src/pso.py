@@ -5,6 +5,7 @@ from functions import basic
 def run_pso(search_space: SearchSpace, max_iterations: int) -> None:
     k = 0
     while k < max_iterations:
+        print(f"iteration: {k}, best solution: {search_space.g_best_value}")
         search_space.set_p_best()
         search_space.set_g_best()
 
@@ -18,7 +19,7 @@ def run_pso(search_space: SearchSpace, max_iterations: int) -> None:
         k += 1
 
     print(
-        f"Iterations: {k}, Best Solution: {search_space.g_best_position}, Value: {search_space.g_best_value}"
+        f"\nBEST SOLUTION: {search_space.g_best_position}, {search_space.g_best_value}"
     )
 
 
