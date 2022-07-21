@@ -31,7 +31,7 @@ Let's minimize the following fitness function where the global minima (best solu
 
 $$z = x^2 + y^2 + 1$$
 
-The `basic` (example) fitness function can be found in [`fitness_functions.py`]().
+The `basic` (example) fitness function can be found in [`fitness_functions.py`](https://github.com/hasnainroopawalla/particle-swarm-optimization/blob/2420da852e8e1dfc574e4b541061d7a7ffd7dc29/src/fitness_functions.py).
 ```python
 def basic(position: np.ndarray) -> float:
     return position[0] ** 2 + position[1] ** 2 + 1
