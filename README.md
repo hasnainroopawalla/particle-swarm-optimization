@@ -1,6 +1,10 @@
 <h1 align="center">Particle Swarm Optimization</h1>
 
 
+[![Develop](https://github.com/hasnainroopawalla/ShowML/actions/workflows/develop.yml/badge.svg)](https://github.com/hasnainroopawalla/ShowML/actions/workflows/develop.yml)
+
+[![Python versions](https://img.shields.io/pypi/pyversions/showml.svg?style=plastic)](https://img.shields.io/pypi/pyversions/showml.svg?style=plastic)
+
 
 A Python package to find the optimal solution in a search space using Particle Swarm Optimization (a meta-heuristic optimization algorithm).
 
