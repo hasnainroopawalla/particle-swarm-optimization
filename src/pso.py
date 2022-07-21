@@ -1,5 +1,5 @@
 from search_space import SearchSpace
-from functions import basic
+from fitness_functions import basic
 
 
 def run_pso(search_space: SearchSpace, max_iterations: int) -> None:
@@ -18,4 +18,4 @@ def run_pso(search_space: SearchSpace, max_iterations: int) -> None:
 
 if __name__ == "__main__":
     search_space = SearchSpace(fitness_function=basic, num_particles=30)
-    run_pso(search_space, max_iterations=50)
+    run_pso(search_space, max_iterations=25)
