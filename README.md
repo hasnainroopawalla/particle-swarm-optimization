@@ -2,8 +2,7 @@
 
 
 [![Develop](https://github.com/hasnainroopawalla/ShowML/actions/workflows/develop.yml/badge.svg)](https://github.com/hasnainroopawalla/ShowML/actions/workflows/develop.yml)
-[![Python versions](https://img.shields.io/pypi/pyversions/showml.svg?style=plastic)](https://img.shields.io/pypi/pyversions/showml.svg?style=plastic)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python package to find the optimal solution in a search space using Particle Swarm Optimization (a meta-heuristic optimization algorithm).
 
