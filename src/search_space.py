@@ -12,13 +12,9 @@ class SearchSpace:
     def __init__(
         self,
         fitness_function: Callable[[np.ndarray], float],
-        target_value: float,
-        target_error: float,
         num_particles: int,
     ) -> None:
         self.fitness_function = fitness_function
-        self.target_value = target_value
-        self.target_error = target_error
         self.num_particles = num_particles
         self.g_best_value: float = float("inf")
         self.g_best_position: np.ndarray = np.random.uniform(-50, 50, (2,))
